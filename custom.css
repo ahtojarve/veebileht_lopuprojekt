@@ -2,3 +2,24 @@
     width: 50px;
     
 }
+.btn {
+    border: none; /* Eemaldab nupu äärise */
+}
+
+.btn-primary {
+    background-color: #343a40; /* Tumehall taust */
+    color: #ffffff; /* Valge tekst */
+}
+
+.btn-primary:hover {
+    background-color: #495057; /* Heledam tumehall hoveri korral */
+}
+
+.btn-success {
+    background-color: #343a40; /* Tumehall taust */
+    color: #ffffff; /* Valge tekst */
+}
+
+.btn-success:hover {
+    background-color: #495057; /* Heledam tumehall hoveri korral */
+}
