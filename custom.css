@@ -1,25 +1,74 @@
-.sm-img {
-    width: 50px;
-    
+.bg-primary {
+    background-color: #2562f5 !important;
 }
+
+.bg-secondary {
+    background-color: #c0ccda !important;
+}
+
+.bg-tertiary {
+    background-color: #d1dd45;
+}
+
+.bg-forest {
+    background-color: #0e4625;
+}
+
+header a {
+    color: black;
+}
+
+header a:hover {
+    transform: translateX(-4px);
+}
+
 .btn {
     border: none; /* Eemaldab nupu äärise */
 }
 
-.btn-primary {
-    background-color: #343a40; /* Tumehall taust */
+.btn-primary,
+.btn-secondary {
+    background-color: #47525e; /* Tumehall taust */
     color: #ffffff; /* Valge tekst */
 }
 
-.btn-primary:hover {
-    background-color: #495057; /* Heledam tumehall hoveri korral */
+.btn-primary:hover,
+.btn-secondary:hover {
+    background-color: #78818a; /* Heledam tumehall hoveri korral */
 }
 
 .btn-success {
-    background-color: #343a40; /* Tumehall taust */
+    background-color: #47525e; /* Tumehall taust */
     color: #ffffff; /* Valge tekst */
 }
 
 .btn-success:hover {
-    background-color: #495057; /* Heledam tumehall hoveri korral */
+    background-color: #78818a; /* Heledam tumehall hoveri korral */
+}
+
+.form-control, 
+.input-group-text {
+    border-color: white;
+}
+
+.form-control {
+    color: #c0ccda !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .cat-img {
+        max-width: 300px !important;
+    }
+
+    .takisti-img {
+        max-width: 200px !important;
+    }
+
+    .categories button {
+        max-width: 200px;
+    }
+} 
+
+.sm-img {
+    width: 50px; 
 }

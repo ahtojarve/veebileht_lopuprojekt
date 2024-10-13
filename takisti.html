@@ -18,70 +18,73 @@
 
 <body>
     <!-- Header--->
-     <header class="bg-light">
-        <div class = "container-fluid px-0">
-            <div class="mx-0 px-3 py-4  bg-primary text-center">
-                <h1 class="text-white display-2 fw-bold">Elektroonikapood</h1>
-            </div>
-            <form class="d-flex px-3 py-2">
-                <div class="input-group">
-                  <div class="input-group-text bg-white"><span class="bi bi-search mb-2"></span></div>
-                  <input class="form-control border-none" type="search" placeholder="Search for components" aria-label="Search">
-                  <div class = "input-group-text bg-white"><i class="bi bi-mic"></i></div>
-                </div>
-              </form>
-
+    <header class="bg-secondary">
+      <div class = "container-fluid px-0">
+        <div class="mx-0 px-3 py-4  bg-tertiary text-center d-flex">
+          <a class="col-1 py-2 align-content-center" href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+            </svg>
+           </a>
+          <h2 class="h2 col-11 py-2">Takistid</h2>
         </div>
-
-     </header>
+        <form class="d-flex px-3 py-2">
+            <div class="input-group">
+              <div class="input-group-text bg-white"><span class="bi bi-search"></span></div>
+              <input class="form-control" type="search" placeholder="Search for components" aria-label="Search">
+              <div class = "input-group-text bg-white"><i class="bi bi-mic"></i></div>
+            </div>
+          </form>
+      </div>
+   </header>
     
     <!--Lehekülje põhiosa-->
-<div class="container my-5">
+<div class="container pt-5 px-4">
   <!-- TAKISTI 1 -->
-  <div class="row align-items-center mb-4">
-    <div class="col-4 mb-3">
-      <img src="https://westbalt.ee/wp-content/uploads/2018/02/products-res06w_2_2_1.jpg" alt="TAKISTI 1" class="img-fluid">
+  <div class="row align-items-end mb-4">
+    <div class="col-4">
+      <img src="https://westbalt.ee/wp-content/uploads/2018/02/products-res06w_2_2_1.jpg" alt="TAKISTI 1" class="img-fluid takisti-img">
     </div>
-    <div class="col-4 mb-3">
+    <div class="col-4">
       <h5>TAKISTI 1</h5>
       <p>5.6k, 0hm</p>
       <button class="btn btn-secondary">Andmeleht</button>
     </div>
     <div class="col-4 text-end">
       <p>Hind: 1 €</p> <!-- Hind kuvatakse alati -->
-      <button class="btn btn-primary">Lisa ostukorvi</button>
+      <button class="btn btn-primary">Ostukorvi</button>
     </div>
   </div>
 
   <!-- TAKISTI 2 -->
-  <div class="row align-items-center mb-4">
-    <div class="col-4 mb-3">
-      <img src="https://westbalt.ee/wp-content/uploads/2023/02/cf2w.jpg" alt="TAKISTI 2" class="img-fluid">
+  <div class="row align-items-end mb-4">
+    <div class="col-4">
+      <img src="https://westbalt.ee/wp-content/uploads/2023/02/cf2w.jpg" alt="TAKISTI 2" class="img-fluid takisti-img">
     </div>
-    <div class="col-4 mb-3">
+    <div class="col-4">
       <h5>TAKISTI 2</h5>
       <p>10k, 0hm</p>
       <button class="btn btn-secondary">Andmeleht</button>
     </div>
     <div class="col-4 text-end">
       <p>Hind: 2 €</p> <!-- Hind kuvatakse alati -->
-      <button class="btn btn-primary">Lisa ostukorvi</button>
+      <button class="btn btn-primary">Ostukorvi</button>
     </div>
   </div>
 
   <!-- TAKISTI 3 -->
-  <div class="row align-items-center mb-4">
-    <div class="col-4 mb-3">
-      <img src="https://westbalt.ee/wp-content/uploads/2018/02/products-carbon_film_resistor_1_20.jpg" alt="TAKISTI 3" class="img-fluid">
+  <div class="row align-items-end mb-4">
+    <div class="col-4">
+      <img src="https://westbalt.ee/wp-content/uploads/2018/02/products-carbon_film_resistor_1_20.jpg" alt="TAKISTI 3" class="img-fluid takisti-img">
     </div>
-    <div class="col-4 mb-3">
+    <div class="col-4">
       <h5>TAKISTI 3</h5>
       <p>100k, 0hm</p>
       <button class="btn btn-secondary">Andmeleht</button>
     </div>
     <div class="col-4 text-end">
       <p>Hind: 3 €</p> <!-- Hind kuvatakse alati -->
-      <button class="btn btn-primary">Lisa ostukorvi</button>
+      <button class="btn btn-primary">Ostukorvi</button>
     </div>
   </div>
 
@@ -93,28 +96,28 @@
   </div>
 </div>
      
-    <!--Jalus-->
-    <footer class="footer bg-light mt-5 p-lg-5 py-4 px-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-12 d-flex flex-column row-gap-1 justify-content-lg-center">
-                    <p class="fw-bold">Ettevõtte nimi</p>
-                    <div class=" d-flex">
-                        <p>tel:</p>
-                        <a href="tel" class="ms-1">55555555 </a>
-                    </div>
-                    <div class="d-flex">
-                        <p>@:</p>
-                        <a href="mailto" class="ms-1">email@email.com </a>
-                    </div> 
+<!--Jalus-->
+<footer class="footer bg-light mt-5 p-lg-5 py-4 px-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-12 d-flex flex-column row-gap-1 justify-content-lg-center">
+                <p class="fw-bold">Ettevõtte nimi</p>
+                <div class=" d-flex">
+                    <p>tel:</p>
+                    <a href="tel" class="ms-1">55555555 </a>
                 </div>
-                <div class="col-lg-4 col-12 d-flex flex-lg-column column-gap-3 row-gap-3 justify-content-lg-center pt-lg-0 pt-4">
-                    <a href="#"><img src="instagram.svg" alt="instagram" class="float-lg-end sm-img "/></a>
-                    <a href="#"><img src="facebook.svg" alt="facebook" class="float-lg-end sm-img "/></a>
-                </div>
+                <div class="d-flex">
+                    <p>@:</p>
+                    <a href="mailto" class="ms-1">email@email.com </a>
+                </div> 
+            </div>
+            <div class="col-lg-4 col-12 d-flex flex-lg-column column-gap-3 row-gap-3 justify-content-lg-center pt-lg-0 pt-4">
+                <a href="#"><img src="instagram.svg" alt="instagram" class="float-lg-end sm-img "/></a>
+                <a href="#"><img src="facebook.svg" alt="facebook" class="float-lg-end sm-img "/></a>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
   
   <!--Popper.js-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

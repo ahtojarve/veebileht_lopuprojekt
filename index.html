@@ -18,26 +18,56 @@
 
 <body>
     <!-- Header--->
-     <header class="bg-light">
+     <header class="bg-secondary">
         <div class = "container-fluid px-0">
-            <div class="mx-0 px-3 py-4  bg-primary text-center">
-                <h1 class="text-white display-2 fw-bold">Elektroonikapood</h1>
-            </div>
-            <form class="d-flex px-3 py-2">
-                <div class="input-group">
-                  <div class="input-group-text bg-white"><span class="bi bi-search mb-2"></span></div>
-                  <input class="form-control border-none" type="search" placeholder="Search for components" aria-label="Search">
-                  <div class = "input-group-text bg-white"><i class="bi bi-mic"></i></div>
-                </div>
-              </form>
-
+          <div class="mx-0 px-3 py-4  bg-primary text-center">
+              <h1 class="text-white display-2 fw-bold">Elektroonikapood</h1>
+          </div>
+          <form class="d-flex px-3 py-2">
+              <div class="input-group">
+                <div class="input-group-text bg-white"><span class="bi bi-search"></span></div>
+                <input class="form-control" type="search" placeholder="Search for components" aria-label="Search">
+                <div class = "input-group-text bg-white"><i class="bi bi-mic"></i></div>
+              </div>
+            </form>
         </div>
-
      </header>
     
     <!--Lehekülje põhiosa-->
-    <div>
-
+    <div class="categories container pt-5 px-4">
+      <div class="row align-items-center mb-4">
+        <div class="col-6 text-end">
+          <img src="images/opamp.webp" alt="op-amp" class="img-fluid cat-img">
+        </div>
+        <div class="col-6">
+          <a href="#">
+            <button class="btn btn-primary rounded-1 py-3 fs-4 w-100">Op-amp</button>
+          </a>
+        </div>
+      </div>
+      <div class="row align-items-center mb-4">
+        <div class="col-6 text-end">
+          <img src="images/takisti.jpg" alt="takisti" class="img-fluid cat-img">
+        </div>
+        <div class="col-6">
+          <a href="takisti.html">
+            <button class="btn btn-primary rounded-1 py-3 fs-4 w-100">Takisti</button>
+          </a>
+        </div>
+      </div>
+      <div class="row align-items-center mb-4">
+        <div class="col-6 text-end">
+          <img src="images/mosfet.jpg" alt="mosfet" class="img-fluid cat-img">
+        </div>
+        <div class="col-6">
+          <a href="mosfet.html">
+            <button class="btn btn-primary rounded-1 py-3 fs-4 w-100">Mosfet</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about container pt-5 px-4">
+      <h2 class="fw-bold">MEIST</h2>
     </div>
     
     <!--Tooted avalehel kaartidena-->
